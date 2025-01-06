@@ -25,10 +25,16 @@ pip install -r requirements.txt
 
 # How to Use
 Run the Python script to start the real-time noise cancellation system.
+
 python noise_cancellation_system.py
+
 The system will ask you to choose between two scenarios:
+
 Enter 1 for Single Speaker Scenario.
+
 Enter 2 for Multiple Speaker Scenario.
+
 The system will start processing audio from your microphone in real-time. You can stop the system by pressing Ctrl+C.
+
 
 The processed (cleaned) audio will be saved to a .wav file in the output_audio/ directory.
